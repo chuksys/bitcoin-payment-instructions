@@ -19,7 +19,8 @@ std = ["dnssec-prover", "getrandom"]
 default = ["std"]
 
 [dependencies]
-lightning-invoice = { version = "0.33", default-features = false }
+#lightning-invoice = { version = "0.33", default-features = false }
+lightning-invoice = { git = "https://github.com/lightningdevkit/rust-lightning", rev = "50391d3a3efa7a8f32d119d126a633e4b1981ee6", default-features = false }
 #lightning = { version = "0.1", default-features = false, features = ["dnssec"] }
 lightning = { git = "https://github.com/lightningdevkit/rust-lightning", rev = "50391d3a3efa7a8f32d119d126a633e4b1981ee6", default-features = false, features = ["dnssec"] }
 bitcoin = { version = "0.32", default-features = false }
