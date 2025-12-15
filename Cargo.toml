@@ -22,11 +22,11 @@ default = ["std"]
 #lightning-invoice = { version = "0.34.0-beta1", default-features = false }
 #lightning-invoice = { git = "https://github.com/lightningdevkit/rust-lightning", branch="main", default-features = false }
 #lightning-invoice = { path = "../rust-lightning/lightning-invoice", default-features = false }
-lightning-invoice = { git = "https://github.com/lightningdevkit/rust-lightning", rev = "bb5504ec62d4b7e9d5626d8b1a6de60d71e8d370", default-features = false }
+lightning-invoice = { git = "https://github.com/lightningdevkit/rust-lightning", rev = "5bf0d1e2427d759fc1ba4108ddc7e9b32e8bacfc", default-features = false }
 #lightning = { version = "0.2.0-rc1", default-features = false, features = ["dnssec"] }
 #lightning = { git = "https://github.com/lightningdevkit/rust-lightning", branch="main", default-features = false, features = ["dnssec"] }
 #lightning = { path = "../rust-lightning/lightning", default-features = false, features = ["dnssec"]}
-lightning = { git = "https://github.com/lightningdevkit/rust-lightning", rev = "bb5504ec62d4b7e9d5626d8b1a6de60d71e8d370", default-features = false, features = ["dnssec"] }
+lightning = { git = "https://github.com/lightningdevkit/rust-lightning", rev = "5bf0d1e2427d759fc1ba4108ddc7e9b32e8bacfc", default-features = false, features = ["dnssec"] }
 bitcoin = { version = "0.32", default-features = false }
 getrandom = { version = "0.3", default-features = false, optional = true }
 dnssec-prover = { version = "0.6", default-features = false, optional = true, features = ["validation", "std", "tokio"] }
@@ -39,9 +39,9 @@ tokio = { version = "1.0", default-features = false, features = ["rt", "macros"]
 #lightning = { version = "0.2.0-rc1", features = ["std"] }
 #lightning = { git = "https://github.com/lightningdevkit/rust-lightning", branch="main", features = ["std"] }
 #lightning = { path = "../rust-lightning/lightning", features = ["std"] }
-lightning = { git = "https://github.com/lightningdevkit/rust-lightning", rev = "bb5504ec62d4b7e9d5626d8b1a6de60d71e8d370", features = ["std"] }
+lightning = { git = "https://github.com/lightningdevkit/rust-lightning", rev = "5bf0d1e2427d759fc1ba4108ddc7e9b32e8bacfc", features = ["std"] }
 #lightning-net-tokio = { version = "0.2.0-rc1", default-features = false }
 #lightning-net-tokio = { git = "https://github.com/lightningdevkit/rust-lightning", branch="main", default-features = false }
 #lightning-net-tokio = { path = "../rust-lightning/lightning-net-tokio" }
-lightning-net-tokio = { git = "https://github.com/lightningdevkit/rust-lightning", rev = "bb5504ec62d4b7e9d5626d8b1a6de60d71e8d370", default-features = false }
+lightning-net-tokio = { git = "https://github.com/lightningdevkit/rust-lightning", rev = "5bf0d1e2427d759fc1ba4108ddc7e9b32e8bacfc", default-features = false }
 
